@@ -1,0 +1,56 @@
+.newsletter {
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 40px;
+  border-style: dashed;
+  font-size: inherit;
+  font-weight: inherit;
+  p {
+    margin: 0;
+    text-align: left;
+  }
+}
+  
+.title {
+  padding-left: .25rem;
+  padding-right: .25rem;
+  font-size: inherit;
+  font-weight: inherit;
+  width: fit-content;
+  margin-top: -1.95rem;
+  margin-bottom: 1rem;
+  background-color: black;
+}
+  
+.form {
+  display: flex;
+  margin-top: 20px;
+  font-size: inherit;
+  font-weight: inherit;
+}
+  
+.input {
+  flex-grow: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px 0 0 4px;
+}
+
+.button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #0077b5;
+  color: white;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #005fa3;
+}
+
+.mt1 {
+  margin-top: 0.5rem !important;
+}

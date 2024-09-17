@@ -1,0 +1,64 @@
+:root {
+  --accent-blue: #3498db;
+  --accent-green: #2ecc71;
+  --accent-yellow: #f1c40f;
+}
+
+.app {
+  font-family: ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: black;
+}
+
+body {
+  color: #ffffff;
+  background-color: black;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-size: .875rem;
+  line-height: 1.25rem;
+  font-weight: 400;
+}
+
+.main {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 48rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.blurElement {
+  position: fixed;
+  height: 300px;
+  width: 300px;
+  border-radius: 9999px;
+  filter: blur(350px);
+  opacity: 0.5;
+}
+
+.leftBlurelement {
+  background-color: rgb(249 115 22 / 100%); 
+  left: 0;
+  top: 0;
+}
+
+.rightBlurelement {
+  background-color: rgb(139 92 246 / 100%); 
+  right: 0;
+  bottom: 0;
+}
+
+@media (max-width: 767px) {
+  .blurElement {
+    filter: blur(150px) !important;
+    width: 150px !important;
+    height: 150px !important;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+}

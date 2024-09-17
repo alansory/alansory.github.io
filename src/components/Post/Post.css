@@ -1,0 +1,19 @@
+.post {
+    margin-bottom: 30px;
+  }
+  
+  .meta {
+    color: #666;
+    font-size: 0.9em;
+    margin-bottom: 5px;
+  }
+  
+  .title {
+    margin: 0;
+    font-size: 1.2em;
+  }
+  
+  .title:hover {
+    color: #0077b5;
+    cursor: pointer;
+  }

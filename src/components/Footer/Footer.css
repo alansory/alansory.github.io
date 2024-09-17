@@ -1,0 +1,23 @@
+.footer {
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid white;
+    text-align: center;
+    font-size: 0.75rem;
+    line-height: 1;
+  }
+  
+  .navFooter {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .navLink {
+    margin: 0 0.5rem;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .navLink:hover {
+    text-decoration: underline;
+  }
