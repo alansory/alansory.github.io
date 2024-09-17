@@ -1,21 +1,25 @@
 .newsletter {
   padding: 20px;
   border-radius: 5px;
-  margin-bottom: 40px;
+  margin-bottom: 2rem;
   border-style: dashed;
   font-size: inherit;
   font-weight: inherit;
   p {
     margin: 0;
-    text-align: left;
+    text-align: justify;
+  }
+  span {
+    color: #ff6000;
+    font-weight: bold;
   }
 }
   
-.title {
+.newsTitle {
   padding-left: .25rem;
   padding-right: .25rem;
-  font-size: inherit;
-  font-weight: inherit;
+  font-size: 1.5em;
+  font-weight: bold;
   width: fit-content;
   margin-top: -1.95rem;
   margin-bottom: 1rem;

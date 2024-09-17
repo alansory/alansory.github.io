@@ -1,7 +1,6 @@
 .header {
   text-align: left;
   border-bottom: 1px solid white;
-  padding-bottom: 20px;
   margin-bottom: 2.5rem;
   line-height: 1.5;
   display: flex;
@@ -34,22 +33,23 @@
   box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
 }
   
-.name {
+.headerName {
   margin-top: 0;
   font-size: 3em;
   margin-bottom: 0;
   line-height: 1.5;
+  font-weight: bold;
 }
 
-.title {
+.headerTitle {
   font-size: inherit;
   font-weight: inherit;
   line-height: 1.5;
+  margin-top: 0;
 }
 
 .nav {
   line-height: 1.5;
-  margin-top: 1rem;
 }
 
 .navLink {
@@ -81,9 +81,16 @@
     position: relative !important;
   }
 
-  .name {
+  .headerName {
     line-height: 1 !important;
     margin-bottom: 10px !important;
+    font-size: 1.5em !important;
+    text-align: center !important;
+  }
+
+  .headerTitle {
+    font-size: .75rem !important;
+    text-align: center !important;
   }
 
   .profileImage {
@@ -93,5 +100,7 @@
   .imageContainer {
     order: 1 !important;
     margin-left: 0 !important;
+    width: 140px !important;
+    height: 200px !important;
   }
 }

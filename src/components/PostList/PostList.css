@@ -1,8 +1,10 @@
 .posts {
-    margin-top: 40px;
+    margin: 0;
   }
   
   .postTitle {
     border-bottom: 1px solid #eaeaea;
     padding-bottom: 10px;
+    font-weight: bold;
+    font-size: 1.5em;
   }
